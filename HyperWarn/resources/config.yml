@@ -1,0 +1,7 @@
+# How many warnings can a player have before being banned
+MaxWarns: 3
+
+#BanTypes:
+# name - Bans the players username
+# ip - Bans the players IP
+BanType: name
