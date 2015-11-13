@@ -13,7 +13,7 @@ class OwnWorld extends PluginBase{
 	
 	public function onEnable(){
 		$this->getLogger()->info(TextFormat::YELLOW . "enabled!");
-		Generator::addGenerator(OwnWorld::class, Gen::NAME);
+		Generator::addGenerator(HyperPlotWorld::class, Gen::NAME);
 	}
 	
 	public function onDisable(){
