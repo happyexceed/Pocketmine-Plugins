@@ -1,5 +1,5 @@
 <?php
-namespace FilipeBR\OwnWorld;
+namespace HyperPlotWorld\HyperPlotWorld;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
