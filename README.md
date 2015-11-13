@@ -1,2 +1,4 @@
 # Pocketmine-Plugins
-My plugins that i develop
+
+# HyperWarn:
+Warn those annoying players! When the player is warned 3times they will be banned!
