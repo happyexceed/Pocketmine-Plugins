@@ -1,0 +1,10 @@
+name: HyperPlotWorld
+main: HyperPlotWorld/HyperPlotWorld
+author: HyperDevTeam
+version: 1.0.0
+api: 1.13.0
+commands:
+ buyworld:
+  description: "Buy you own world"
+  usage: "/buyworld <name>"
+  permission: hyperplot.buyworld
