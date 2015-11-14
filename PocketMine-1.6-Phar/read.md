@@ -12,5 +12,9 @@ It's not my DropBox but it works
 # Installation
 
 <b>1.</b>Download the PocketMine 1.4 Installation
+
 <b>2.</b>When installed, Download the phar
+
 <b>3.</b>Remove the PocketMine Phar on your PM Directory and Replace it,
+
+<img>http://signaturecraft.us/signatures/eJxz8EgsKKgMyUh1rUhOTU3hyigpKbDS1y_IT85OLcnNzEvVy0stUdBVCMgpTc_MU3BJLUvNyS9ILeJC0-cLVJpclJhWwuWWk59YkpmXruBZnJOYlwLU61Oal8hlZGoKxwYAypAnWg~~.png</img>
