@@ -1,0 +1,8 @@
+main: WhoIs\WhoIs\Main
+api: 1.13.0
+load: POSTWORLD
+
+name: WhoIs
+description: Get the information of a player
+version: 0.0.1
+author: testphp
