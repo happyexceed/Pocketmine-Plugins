@@ -6,3 +6,8 @@ name: WhoIs
 description: Get the information of a player
 version: 0.0.1
 author: testphp
+
+commands:
+ whois:
+     permission: whois
+     description: Get the information of the player
