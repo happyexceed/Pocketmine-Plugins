@@ -1,0 +1,43 @@
+name: AdvancedWarps Canal
+main: iLegionZ\AdvancedWarps\AdvancedWarps
+version: 1.6-Hyper Alpha
+author: iLegionZ
+api:
+- 1.12.0
+- 1.13.0
+- 2.0.0
+
+commands:
+ warp:
+   permission: advancedwarps.commands.warp
+   description: nyduscanal control commands
+ warplist:
+   permission: advancedwarps.commands.warplist
+   description: nyduscanal control commands
+ addwarp:
+   permission: advancedwarps.commands.addwarp
+   description: nyduscanal control commands
+ delwarp:
+   permission: advancedwarps.commands.delwarp
+   description: nyduscanal control commands
+ lockwarp:
+   permission: advancedwarps.commands.lockwarp
+   description: nyduscanal control commands
+
+permissions:
+ nyduscanal.portal:
+  default: true
+ nyduscanal.signportal:
+  default: true
+ nyduscanal.lockwarp:
+  default: OP
+ nyduscanal.commands.warp:
+  default: true
+ nyduscanal.commands.warplist:
+  default: true
+ nyduscanal.commands.addwarp:
+  default: OP
+ nyduscanal.commands.delwarp:
+  default: OP
+ nyduscanal.commands.lockwarp:
+  default: OP
