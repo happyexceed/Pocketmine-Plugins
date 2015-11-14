@@ -1,0 +1,11 @@
+name: StrikeEvents
+version: 0.1
+api: 1.13.0
+main: Light\Main
+author: HyperDevTeam
+description: Lightning Events when Joining and Leaving!
+commands:
+  strike:
+    usage: /strike <player>
+    default: op
+    description: Summon a LightningEvent on a Player
