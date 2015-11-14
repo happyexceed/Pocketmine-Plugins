@@ -16,8 +16,8 @@ use aliuly\common\PermUtils;
 class CmdWhois extends BasicCli implements CommandExecutor {
 	public function __construct($owner) {
 		parent::__construct($owner);
-		PermUtils::add($this->owner, "gb.cmd.whois", "view players details", "op");
-		PermUtils::add($this->owner, "gb.cmd.whois.showip", "view players IP address", "op");
+		PermUtils::add($this->owner, "whois", "view players details", "op");
+		PermUtils::add($this->owner, "whois", "view players IP address", "op");
 		$this->enableCmd("whois",
 							  ["description" => mc::_("show players detail info"),
 								"usage" => "/whois <player>",
