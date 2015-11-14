@@ -1,4 +1,8 @@
-Commands  | Feauture
+Commands  | Feature
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+warp | Warp cmds
+lockwarp | Lock warps
+portal | Make WarpPortals
+signwarp | Make SignWarps
+delwarp | Delete warps
+listwarps | List all warps
