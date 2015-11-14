@@ -1,0 +1,43 @@
+---
+
+#MiniSpleef's default config
+
+#the world where spleef starts
+spleef-world: "world"
+
+#Min position for the spleef floor to reset (from)
+spleef-Min-floor-X: 121
+spleef-Min-floor-Y: 65
+spleef-Min-floor-Z: 121
+
+#Max position for the spleef floor to reset (to)
+spleef-Max-floor-X: 135
+spleef-Max-floor-Y: 65
+spleef-Max-floor-Z: 135
+
+#the block id that the spleef floor will reset to
+spleef-floor-reset-block-ID: 80
+spleef-floor-reset-block-damage: 0
+
+#position of the block that when a player touches the game starts
+spleef-start-block-X: 128
+spleef-start-block-Y: 67
+spleef-start-block-Z: 120
+
+#the time of the spleef game in seconds
+spleef-time: 120
+ #message will be sent to the player when he tries to start the game when it's already started
+spleef-already-started-message: "Spleef game already started!"
+
+#messages will be broadcasted when the game is started
+spleef-start-messages:
+ - "-------------"
+ - "Spleef game has started!"
+ - "-------------"
+ #messages will be broadcasted when the game ends
+spleef-end-messages:
+ - "-------------"
+ - "Spleef Game Ended!"
+ - "-------------"
+
+...
