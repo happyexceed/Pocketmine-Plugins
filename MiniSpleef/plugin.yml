@@ -1,0 +1,24 @@
+name: MiniSpleef
+version: 1.5 HypBeta
+api: [1.13.0]
+main: MSpleef\Main
+author: Derp_Cake,Goldish_Kirby
+load: POSTWORLD
+commands:
+ ms:
+  description: "MiniSpleef Main Command"
+  usage: "/ms <start/stop>"
+permissions:
+ ms.command:
+  description: "Allow full access to MiniSpleef commands"
+  default: op
+  children:
+   ms.command.start:
+    description: "Allow executing /ms start"
+    default: true
+   ms.command.stop:
+    description: "Allow executing /ms stop"
+    default: op
+   ms.command.reload:
+    description: "Allow executing /ms reload"
+    default: op
