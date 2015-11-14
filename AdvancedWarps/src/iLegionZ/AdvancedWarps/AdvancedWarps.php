@@ -1,5 +1,5 @@
 <?php
-namespace ifteam\NydusCanal;
+namespace iLegionZ\AdvancedWarps;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\event\block\SignChangeEvent;
